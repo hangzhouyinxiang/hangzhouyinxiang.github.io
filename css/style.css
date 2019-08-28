@@ -1578,6 +1578,40 @@ a {
   .footer-up-btn img {
     width: 20px;
   }
+   /*footer*/
+.popoverinfo {
+  opacity: 0;
+  transition: .3s;
+  pointer-events: none;
+}
+.popover_ctl {
+  position: relative;
+  display: inline-block;
+}
+
+.popover_ctl:hover .popoverinfo {
+  opacity: 1;
+  pointer-events: auto;
+}
+.wechat_code_bg {
+  right: -70px;
+  bottom: -300px;
+  padding: 6px;
+  margin-top: 2px;
+  color: #666666;
+  background: #fff;
+  border-radius: 8px;
+  border: #404040 2px solid;
+  font-size: 12px;
+  position: absolute;
+ 
+  text-align: center;
+}
+
+.wechat_code_bg .wechat_code {
+  width: 240px;
+  height: 240px;
+}
 
   @media (max-width: 900px) {
     .banner {
